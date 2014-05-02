@@ -1,0 +1,93 @@
+nav {  
+    display: block;  
+    margin-bottom: 10px;  
+}  
+nav ul {  
+    list-style: none;  
+    font-size: 14px;  
+}  
+nav ul li {  
+    display: inline;  
+}  
+nav ul li a {  
+    display: block;  
+    float: left;  
+    padding: 3px 6px;  
+    color: #575c7d;  
+    text-decoration: none;  
+    font-weight: bold;  
+}  
+nav ul li a:hover {  
+    background: #deff90;  
+    color: #485e0f;  
+    -webkit-border-radius: 3px;  
+    -moz-border-radius: 3px;  
+    border-radius: 3px;  
+    padding: 3px 6px;  
+    margin: 0;  
+    text-decoration: none;  
+} 
+div#wrapper{
+    width: 202%;
+    padding: 1%;
+    background: #485e0f;
+
+}
+/* page core */  
+div#core {  
+    display: block;  
+    clear: both;  
+    margin-bottom: 20px;  
+}  
+section#left {  
+    width: 550px;  
+    float: left;  
+    margin: 0 15px;  
+}  
+section#right {  
+    float: left;  
+    width: 300px;  
+}  
+  
+   
+/* clearfix */  
+.clearfix:after {  
+    content: ".";  
+    display: block;  
+    clear: both;  
+    visibility: hidden;  
+    line-height: 0;  
+    height: 0;  
+}  
+.clearfix {  
+    display: inline-block;  
+}  
+   
+html[xmlns] .clearfix {  
+    display: block;  
+}  
+* html .clearfix {  
+    height: 1%;  
+}  
+div.ss{
+    width: 50%;
+    height: 250px;
+    padding: 1%;
+    border: 5px solid gray;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px; 
+    margin: auto;
+    margin-top: 20%;
+}
+div.core{
+    width: 50%;
+    margin: auto;
+    border: 5px solid gray;
+    padding: 2%;
+}
+#username{
+    width: 200px;
+    height: 20px;
+}
