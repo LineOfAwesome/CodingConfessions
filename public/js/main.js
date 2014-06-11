@@ -3,7 +3,8 @@
 
 	define( function ( require ) {
 		var App = require( 'App' );
-		require('apps/application');
+		require( 'apps/application' );
+
 		App.start();
 
 	} );

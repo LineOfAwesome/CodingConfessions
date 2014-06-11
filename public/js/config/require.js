@@ -17,6 +17,8 @@ require.config( {
 
 		// Application Files
 		'App'    : 'App',
+		'admin'  : 'apps/admin',
+		'home'   : 'apps/home',
 		'Router' : 'Router'
 
 

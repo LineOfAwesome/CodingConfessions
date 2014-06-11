@@ -8,10 +8,17 @@ define( function ( require ) {
 		var App      = require( 'App' );
 		var Router   = require( 'Router' );
 
+		require( 'apps/admin/views/AdminViews' );
+		require( 'apps/admin/controllers/AdminAppController' );
+
 		App.module( 'Admin', function ( Admin ) {
+
+			require( 'apps/admin/views/AdminViews' );
+			require( 'apps/admin/controllers/AdminAppController' );
 
 			Admin.Router = Router.extend( {
 				'appRoutes' : {
+
 					'admin/:id' : 'showAdminPage'
 				}
 			} );
@@ -19,7 +26,7 @@ define( function ( require ) {
 			var API = {
 
 				'showAdminPage' : function ( id ) {
-					console.log ( id );
+					console.log ( id + ' admin page' );
 				}
 
 			};

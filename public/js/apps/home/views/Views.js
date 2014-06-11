@@ -4,7 +4,7 @@ define( function ( require ) {
 	var App = require( 'App' );
 
 	App.module( 'Home.Views', function ( Views ) {
-
+		console.log ( 'Views!!!' );
 		Views.PageLayout                = require( 'apps/home/views/HomePageLayoutView' );
 		Views.ConfessionItemView        = require( 'apps/home/views/ConfessionItemView' );
 		Views.ConfessionsCollectionView = require( 'apps/home/views/ConfessionsCollectionView' );

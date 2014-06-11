@@ -8,6 +8,9 @@ define( function ( require ) {
 		var App      = require( 'App' );
 		var Router   = require( 'Router' );
 
+		require( 'apps/home/views/Views' );
+		require( 'apps/home/controllers/ShowController' );
+
 		App.module( 'Home', function ( Home ) {
 
 			require( 'apps/home/views/Views' );
@@ -15,6 +18,7 @@ define( function ( require ) {
 
 			Home.Router = Router.extend( {
 				'appRoutes' : {
+
 					''         : 'showHomePage',
 					'show/:id' : 'showConfessionPost',
 					'login'    : 'showLoginPage'

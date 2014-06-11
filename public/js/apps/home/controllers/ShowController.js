@@ -12,7 +12,8 @@ define( function ( require ) {
 
 	App.module( 'Home.Controller', function ( Controller ) {
 		var layout = new App.Home.Views.PageLayout();
-
+		console.log ( 'App.Home.Controller' );
+		console.log ( App.Home.Views );
 		Controller.Show = {
 
 			'showHome' : function () {

@@ -4,7 +4,6 @@ define( function ( require ) {
 	var Marionette  = require( 'marionette' );
 	var Backbone    = require( 'backbone' );
 	var $           = require( 'jquery' );
-	var router		= require( 'Router' );
 
 	// main app
 	var App = new Marionette.Application();
@@ -16,7 +15,7 @@ define( function ( require ) {
 		confessionFormRegion : '#confessFormRegion',
 		wrapper              : '.wrapper',
 		modalRegion          : '#msgModal',
-		content				 : '#content'
+		content              : '#content'
 	} );
 
 	// Allow sub apps to update history fragment when using events

@@ -3,10 +3,10 @@ define( function ( require ) {
 
 	var App = require( 'App' );
 
-	var admin = require( 'apps/admin/Admin' );
-	var home  = require( 'apps/home/Home' );
+	var homes  = require( 'home/Home' );
+	var admin = require( 'admin/Admin' );
 
+	homes( );
 	admin( );
-	home( );
 
 } );
